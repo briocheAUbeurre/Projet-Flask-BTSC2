@@ -1,2 +1,4 @@
 # Projet-Flask-BTSC2
 Projet pour les élèves de bts ciel 2 en Python et la bibliothèque Flask
+
+Première modification du projet ce projet servira de test Flask pour un futur projet pour mes élèves surement avec le rendu en versionning github

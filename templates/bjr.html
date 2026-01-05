@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta  charset="utf-8" />
+    <title>Accueil</title>
+</head>
+<body>
+    <h1>Bienvenue BTS CIEL</h1>
+    <p>Page HTML classique</p>
+    {% if username %}
+    <p>Bonjour {{username}}</p>
+    {% else %}
+    <p> Bonjour inconnu </p>
+    {% endif %}
+</body>
+</html>

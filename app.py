@@ -19,5 +19,9 @@ def ping(username):
 def ping2(username):
     return render_template("bjr.html", username=username)
 
+@app.route("/page2")
+def page2():
+    return render_template("bjr2.html")
+
 
 app.run(host="0.0.0.0", port=5000)

@@ -1,7 +1,13 @@
+from datetime import date
+from datetime import datetime
+
 from flask import Flask, render_template
 from markupsafe import escape
 
 app = Flask(__name__)
+
+moment = date.today().strftime("%d /%m/%Y")
+H = datetime.now().strftime("%H:%M:%S")
 
 @app.route("/")
 def accueil():
@@ -22,6 +28,11 @@ def ping2(username):
 @app.route("/page2")
 def page2():
     return render_template("bjr2.html")
+
+@app.route("/heure")
+def heure():
+    return render_template("heure.html", bonjour = "Hello World!",
+    moment = moment, heure = H)
 
 
 app.run(host="0.0.0.0", port=5000)

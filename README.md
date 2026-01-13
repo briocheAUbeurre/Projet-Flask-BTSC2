@@ -9,4 +9,4 @@ Quatrième Commit : Nouvelle page qui affiche l'heure et la date
 
 Cinquième Commit : 2 nouvelles pages un formulaire qui demande le nom et prénom et un page qui souhaite la bienvenu à l'utilisateur.
                     liaisons des nouvelles pages avec les anciennes.
-                    
+Sixième Commit : ajout d'un requirements.txt pour les biblioteques requises au lancement de l'application et du venv au gitignore 
